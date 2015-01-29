@@ -1,1 +1,14 @@
 But I what a different update.
+***************************************************
+ned@ned-Lenovo-B590:/media/ned/64B43681B43655B0/SoftUni/Nivo_1/JavaBasics/4.Java-Syntax/SoftUni$ git push -u origin_6 master
+Username for 'https://github.com': nedelcho
+Password for 'https://nedelcho@github.com': 
+To https://github.com/nedelcho/SoftUni.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/nedelcho/SoftUni.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
