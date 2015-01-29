@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-But I what a different update.
+Making it more clear 
+
 ***************************************************
 ned@ned-Lenovo-B590:/media/ned/64B43681B43655B0/SoftUni/Nivo_1/JavaBasics/4.Java-Syntax/SoftUni$ git push -u origin_6 master
 Username for 'https://github.com': nedelcho
@@ -12,9 +12,7 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-=======
-Lets just update to new version.
->>>>>>> e542d8cf321539d682913b580fbf491e972ed128
+**************************************************
 
 ned@ned-Lenovo-B590:/media/ned/64B43681B43655B0/SoftUni/Nivo_1/JavaBasics/4.Java-Syntax/SoftUni$ git pull https://github.com/nedelcho/SoftUni.git
 From https://github.com/nedelcho/SoftUni
@@ -22,4 +20,9 @@ From https://github.com/nedelcho/SoftUni
 Auto-merging fileForTestingMerge.txt
 CONFLICT (content): Merge conflict in fileForTestingMerge.txt
 Automatic merge failed; fix conflicts and then commit the result.
-
+**************************************************
+git init
+git add fileForTestingMerge.txt
+git commit -m "Therd commit. Lets see what will happen."
+git remote add origin_ https://github.com/nedelcho/SoftUni.git
+git push -u origin_ master
